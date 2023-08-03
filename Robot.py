@@ -11,7 +11,4 @@ class Robot:
 	    self.points = points
         
     def awesome(self):
-    	if self.points >= 9:
-    		return True
-    	else:
-    		return False
+        return self.points >= 9
